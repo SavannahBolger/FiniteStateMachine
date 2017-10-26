@@ -1,0 +1,27 @@
+﻿  MAIN.cpp
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\main.cpp(17): error C2275: 'std::chrono::milliseconds': illegal use of this type as an expression
+  c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\main.cpp(17): note: see declaration of 'std::chrono::milliseconds'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\main.cpp(17): error C2146: syntax error: missing ')' before identifier 'dura'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\main.cpp(23): error C2275: 'std::chrono::milliseconds': illegal use of this type as an expression
+  c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\main.cpp(23): note: see declaration of 'std::chrono::milliseconds'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\main.cpp(23): error C2146: syntax error: missing ')' before identifier 'dura'
+  FiniteStateMachine.cpp
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(9): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(13): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(17): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(21): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(25): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(29): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(40): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(41): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(42): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(43): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(44): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\currentstate.h(45): error C2061: syntax error: identifier 'Animation'
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\finitestatemachine.cpp(10): error C2660: 'State::idle': function does not take 1 arguments
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\finitestatemachine.cpp(15): error C2660: 'State::walking': function does not take 1 arguments
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\finitestatemachine.cpp(20): error C2660: 'State::jumping': function does not take 1 arguments
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\finitestatemachine.cpp(25): error C2660: 'State::swordsmanship': function does not take 1 arguments
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\finitestatemachine.cpp(30): error C2660: 'State::hammering': function does not take 1 arguments
+c:\users\c00215747\documents\finitestatemachine\finite state machine\gameplay animation\finitestatemachine.cpp(35): error C2660: 'State::shoveling': function does not take 1 arguments
+  Generating Code...
