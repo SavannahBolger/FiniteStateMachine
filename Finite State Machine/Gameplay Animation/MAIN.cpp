@@ -1,9 +1,16 @@
-#include <iostream>
+/// <summary>
+/// 
+/// @author: Savannah Bolger
+/// @student no: C00215747
+/// @date: 5/11/2017
+/// @approx no hrs:
+/// </summary>
+
 #include <thread>
 #include <chrono>
+#include <iostream>
 
-#include "CurrentState.h"
-#include "FiniteStateMachine.h"
+#include "Animation.h"
 
 int main()
 {
@@ -14,13 +21,13 @@ int main()
 		if (i == 0)
 		{
 			fsm.jumping();
-			std::this_thread::sleep_for(std::chrono::milliseconds dura(1000));
+			std::this_thread::sleep_for(std::chrono::milliseconds { 1000 });
 			i = 1;
 		}
 		else
 		{
-			fsm.walking();
-			std::this_thread::sleep_for(std::chrono::milliseconds dura(1000));
+			fsm.climbing();
+			std::this_thread::sleep_for(std::chrono::milliseconds{1000});
 			i = 0;
 		}
 	}
