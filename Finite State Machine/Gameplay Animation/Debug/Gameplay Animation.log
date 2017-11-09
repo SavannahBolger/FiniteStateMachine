@@ -1,9 +1,3 @@
-﻿  State.cpp
-  Main.cpp
-  Jumping.cpp
-  Idle.cpp
-  Climbing.cpp
-  Animation.cpp
-  Generating Code...
-  Gameplay Animation.vcxproj -> C:\Users\c00215747\Documents\FiniteStateMachine\Finite State Machine\Debug\Gameplay Animation.exe
-  Gameplay Animation.vcxproj -> C:\Users\c00215747\Documents\FiniteStateMachine\Finite State Machine\Debug\Gameplay Animation.pdb (Partial PDB)
+﻿  Game.cpp
+  Gameplay Animation.vcxproj -> D:\College Projects\Second Year\Gameplay\FiniteStateMachine\Finite State Machine\Debug\Gameplay Animation.exe
+  Gameplay Animation.vcxproj -> D:\College Projects\Second Year\Gameplay\FiniteStateMachine\Finite State Machine\Debug\Gameplay Animation.pdb (Partial PDB)

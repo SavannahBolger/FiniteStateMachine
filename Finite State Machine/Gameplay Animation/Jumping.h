@@ -8,7 +8,7 @@
 /// @author: Savannah Bolger
 /// @student no: C00215747
 /// @date: 5/11/2017
-/// @approx no hrs:
+/// @approx no hrs: 10 hrs
 /// </summary>
 
 #include <iostream>
