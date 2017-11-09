@@ -12,6 +12,13 @@
 
 #include <iostream>
 #include "Idle.h"
+#include "Jumping.h"
+#include "Climbing.h"
+#include "Hammering.h"
+#include "Shoveling.h"
+#include "Swordsmanship.h"
+#include "Walking.h"
+#include "State.h"
 
 class Animation
 {

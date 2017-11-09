@@ -11,7 +11,7 @@
 //idling animation state
 void State::idle(Animation * a)
 {
-	std::cout << "State::Idling" << std::endl;
+	/*std::cout << "State::Idling" << std::endl;*/
 }
 
 //jumping animation state

@@ -12,8 +12,8 @@
 //is displayed
 void Idle::jumping(Animation * a)
 {
-	std::cout << "Jumping" << std::endl;
-	a->setCurrent(new Idle());
+  	std::cout << "Jumping" << std::endl;
+   	a->setCurrent(new Jumping());
 	delete this;
 }
 
@@ -22,7 +22,7 @@ void Idle::jumping(Animation * a)
 void Idle::climbing(Animation * a)
 {
 	std::cout << "Climbing" << std::endl;
-	a->setCurrent(new Idle());
+	a->setCurrent(new Climbing());
 	delete this;
 }
 
@@ -31,7 +31,7 @@ void Idle::climbing(Animation * a)
 void Idle::walking(Animation * a)
 {
 	std::cout << "Walking" << std::endl;
-	a->setCurrent(new Idle());
+	a->setCurrent(new Walking());
 	delete this;
 }
 
@@ -40,7 +40,7 @@ void Idle::walking(Animation * a)
 void Idle::swordsmanship(Animation * a)
 {
 	std::cout << "Swordsmanship" << std::endl;
-	a->setCurrent(new Idle());
+	a->setCurrent(new Swordsmanship());
 	delete this;
 }
 
@@ -49,7 +49,7 @@ void Idle::swordsmanship(Animation * a)
 void Idle::shoveling(Animation * a)
 {
 	std::cout << "Shoveling" << std::endl;
-	a->setCurrent(new Idle());
+	a->setCurrent(new Shoveling());
 	delete this;
 }
 
@@ -58,6 +58,6 @@ void Idle::shoveling(Animation * a)
 void Idle::hammering(Animation * a)
 {
 	std::cout << "Hammering" << std::endl;
-	a->setCurrent(new Idle());
+	a->setCurrent(new Hammering());
 	delete this;
 }
